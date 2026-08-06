@@ -25,8 +25,25 @@ class Str {
 System.out.print("\nSubstring  :" + ch.substring(3))      ;  //hello =lo; 
 
 // replace all the occuresne of that character/string  in string in new string
-System.out.print("\nSubstring  :" + ch.replace('l','p'));      // heppo
+System.out.print("\nReplace  :" + ch.replace('l','p'));      // heppo
+
+// starts wth check the string is starting with the given char or not 
+    String st="good morning";
+    System.out.print("\nstartwith retrun true or false  : " + st.startsWith("Goo") );
+
+// ends wth check the string is ending with the given char or not 
+    String h="good morning";
+    System.out.print("\nendswith retrun true or false  : " + st.endsWith("g") ); 
+
+//charat  check the which char is at given index
+char  n=h.charAt(5);
+System.out.printf("\nThe char at given index is :"+ n);
+
+//indexof return the index number of given char or string    
+System.out.print("\nThe indexof given char/string is  :"+ h.indexOf("mo"));
+
+// equal is used to see the string are equal or ! this  method which return true or false 
+System.out.print("\nequals or not : "+ h.equals("good"));
     }
    
-
  }
