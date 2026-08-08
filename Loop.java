@@ -1,3 +1,6 @@
+// for loop
+//while loop
+// do while loop
 class Loop{
     public static void main (String []args){
       int i=0;
@@ -9,8 +12,6 @@ class Loop{
           }
     System.out.println("hello :" + i);
       } while(i<5);
-// for loop
-//while loop
-// do while loop
+
     }
 }
