@@ -22,7 +22,12 @@ class condition {
             break;
         default:
              System.out.println("Drive slow enjoy the car ");    
-    }
+    } 
+String s="apple";
+switch(s){
+    case "apple" -> System.out.print("this is apple");
+    case "mango" -> System.out.print("this is mango");
+    default -> System.out.print("Enter valid fruit");
 
     }
 }
