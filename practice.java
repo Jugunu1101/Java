@@ -143,10 +143,10 @@
 
 
 // find the occurence of a digit in a number;
-import java.util.*;
-class practice {
-    public static void main (String []args){
-        // int digit=1234787976;
+// import java.util.*;
+// class practice {
+//     public static void main (String []args){
+//         // int digit=1234787976;
 //         Scanner sc=new Scanner(System.in);
 //         System.out.print("enter a digit : ");
 //         int digit=sc.nextInt();
@@ -164,13 +164,73 @@ class practice {
 //                 count++;
 //             }        
 //         }
-// System.out.print("The occurence of give no is:"+ count);
+// // System.out.print("The occurence of give no is:"+ count);
 
-String s="apple";
-switch(s){
-    case "apple" -> System.out.print("this is apple");
-    case "mango" -> System.out.print("this is mango");
-    default -> System.out.print("Enter valid fruit");
-}
-    }
-    }
+
+//     }
+//     }
+
+
+
+//    3 digit armstrong number
+// import java.util.*;
+// class practice {
+//     public static void main (String []args){
+//         Scanner sc= new Scanner(System.in);
+//         int n=sc.nextInt();
+//         int sum=0;
+//         int c=n;
+
+//     while(c >0){
+//      int remindar=c%10;
+//      remindar=remindar *remindar * remindar;
+//      sum+=remindar;
+//      c=c/10;
+//     }
+
+//     System.out.println("value of sum = "+sum);
+//     if(sum==n){
+//         System.out.print("Armstrong number");
+//     }
+//     else {
+//         System.out.print("Not a armstrong number");
+//     }
+//     }
+// }
+
+
+
+// n digit armstrong number  
+// import java.util.*;
+// class practice {
+//     public static void main (String []args){
+//         Scanner sc= new Scanner(System.in);
+//          System.out.print("enter a number");
+//         int n=sc.nextInt();
+//         int sum=0;
+//         int temp=n;
+//         int cnt=0;
+
+//         while(temp>0){
+//             temp=temp/10;
+//             cnt++;
+//         }
+//         System.out.println("count ="+cnt);
+//         temp=n ;                // store the n var real value
+
+//       while(temp >0){
+//        int remindar=temp%10;
+//        int power=(int)Math.pow(remindar,cnt);
+//        sum+=power;
+//        temp=temp/10;
+//     }
+
+//     System.out.println("value of sum = "+sum);
+//     if(sum==n){
+//         System.out.print("Armstrong number");
+//     }
+//     else {
+//         System.out.print("Not a armstrong number");
+//     }
+//     }
+// }
