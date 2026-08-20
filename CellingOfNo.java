@@ -3,7 +3,7 @@
 class CellingOfNo{
     public static void main (String args[]){
         int []arr={1,3,4,5,6,11,12,14,16,19,20,26,29,30};
-        int target=31;
+        int target=27;
         int c=CellingNo(arr,target);
          System.out.println("The given no is : "+target);
         System.out.print("The celling no is : "+c);
