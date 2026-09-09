@@ -1,13 +1,19 @@
+import java.util.*;
 class BSTwoArray{
     public static void main(String []args){
-        
+        int [][] arr={{1,2,3,4},
+                    {5,6,7,8},
+                    {9,10,11,12}              
+                        };
+        System.out.println(Arrays.toString(Binary2D(arr,8)));
     }
-    static int Binary2D(int [][]arr,int target){
+
+    static int[] Binary2D(int [][]arr,int target){
         int r=0;
-        int c=arr.length-1;
+        int c=arr[0].length-1;
     while(r <arr.length && c>=0){
         if(arr[r][c]==target){
-            return new int[] {r,c};
+            return new int[]{r,c};
         }
         if(arr[r][c] < target){
             r++;
@@ -16,5 +22,6 @@ class BSTwoArray{
             c--;
         }
     }
+      return new int[]{-1,-1};
     }
 }
