@@ -234,3 +234,24 @@
 //     }
 //     }
 // }
+
+
+// Prime or not
+class practice {
+    public static void main (String []args){
+        int n=13;
+        int cnt=0;
+        for(int i=2;i<n;i++){
+            if(n/i==0){
+                cnt++;
+                break;
+            }
+        }
+        if(cnt==0){
+            System.out.printf(" The  %d is a prime no",n);
+        }
+        else {
+            System.out.printf(" The  %d is  not a prime no",n);
+        }
+    }
+}
