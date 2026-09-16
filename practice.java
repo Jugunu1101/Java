@@ -237,21 +237,39 @@
 
 
 // Prime or not
+// class practice {
+//     public static void main (String []args){
+//         int n=12;
+//         int cnt=0;
+//         for(int i=2;i<n;i++){
+//             if(n%i==0){
+//                 cnt++;
+//                 break;
+//             }
+//         }
+//         if(cnt > 0){
+//             System.out.printf(" The  %d is  not a prime no",n);
+//         }
+//         else {
+        
+//              System.out.printf(" The  %d is a prime no",n);
+//         }
+//     }
+// }
+
+
+
+
+// find n number in range  which are not prime
 class practice {
     public static void main (String []args){
-        int n=13;
-        int cnt=0;
+        int n=15;
         for(int i=2;i<n;i++){
-            if(n/i==0){
-                cnt++;
-                break;
+            if(n%i==0){
+                 System.out.printf(" The  %d is  Not a prime No",i);
+                 System.out.println("");
+                 System.out.println(i);
             }
-        }
-        if(cnt==0){
-            System.out.printf(" The  %d is a prime no",n);
-        }
-        else {
-            System.out.printf(" The  %d is  not a prime no",n);
         }
     }
 }
