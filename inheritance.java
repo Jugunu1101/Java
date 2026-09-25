@@ -21,14 +21,14 @@
 //         System.out.println("Y ="+y);
 //     }
 // }
-// class inheritance {
-//     public static void main (String []args){
-//         child obj=new child();
-//         obj.fun2();
-//         obj.display();
-//     }
-// }
-// //     -<
+class inheritance {
+    public static void main (String []args){
+        child obj=new child();
+          obj.fun2();
+        obj.display(); 
+    }
+}
+
 
 
 
