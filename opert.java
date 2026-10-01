@@ -1,5 +1,5 @@
 class opert{
-    public static void main (String []args){
+    public static void main(String []args){
         int a=9;
         int b=5;
         System.out.println("Arithematic opertator");
@@ -32,7 +32,7 @@ class opert{
 
         System.out.println("bitwise opertator");
          System.out.println("& : "+ (a & b));
-        System.out.println(" |: "+  (a | b)) ;
+        System.out.println(" | : "+  (a | b)) ;
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);

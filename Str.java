@@ -16,7 +16,7 @@ class Str {
     System.out.print("\n lower case "+ s.toLowerCase());   // byy
     System.out.print("\n It is immutable : "+ s);   
 
-// trim() is used to remove space form end and starting of string
+// trim() is used to remove space form end and starting of string 
     String ch = "Hello   ";
     System.out.print("Without trim method :"+ch);
     System.out.print("\nWith trim method :"+ ch.trim());

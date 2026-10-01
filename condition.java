@@ -30,4 +30,4 @@ switch(s){
     default -> System.out.print("Enter valid fruit");
 
     }
-}
+}}

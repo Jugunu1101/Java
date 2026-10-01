@@ -14,9 +14,9 @@ class BinaryS{
         int s=0;                 
         int e=arr.length-1;  
         while(s <= e){
-            int mid=s + (e-s) /2;
+            int mid=s + (e-s) /2; 
             if(arr[mid]== target){
-                return mid+1;
+                return mid;
             }
             else if(arr[mid] < target){       
                 s=mid+1;                    
