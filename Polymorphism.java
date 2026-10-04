@@ -27,5 +27,6 @@ class Polymorphism{
         runtime obj=new runtime();
         obj.fun(1,2);
         obj.fun(1,2,5);
+        obj.fun(1,2,5);
     }
 }
